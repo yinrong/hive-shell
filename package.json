@@ -1,0 +1,22 @@
+{
+  "name": "hive-shell",
+  "version": "0.2.0",
+  "description": "Use Apache Hive by shell interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinrong/hive-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinrong/hive-shell/issues"
+  },
+  "homepage": "https://github.com/yinrong/hive-shell#readme",
+  "dependencies": {
+    "async": "^1.5.0"
+  }
+}
