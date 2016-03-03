@@ -8,7 +8,8 @@ Use Apache Hive by the shell interface. Depend on the shell command "hive".
 ```javascript
 var HiveClient = require('hive-shell').HiveClient
 
-var hive = new HiveClient(conf.hive.database, conf.hive)
+var opts = {dry_run: true}
+var hive = new HiveClient('database_name', opts /* optional */ )
 
 hive.getSchemaDesc(hive.table, function(err, desc) {
   // desc is the same as "hive -e 'desc TABLE'"
