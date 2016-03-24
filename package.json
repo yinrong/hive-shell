@@ -1,6 +1,6 @@
 {
   "name": "hive-shell",
-  "version": "0.3.9",
+  "version": "1.0.0",
   "description": "Use Apache Hive by shell interface",
   "main": "index.js",
   "scripts": {
